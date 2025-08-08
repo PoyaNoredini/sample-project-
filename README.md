@@ -17,7 +17,8 @@ A robust Laravel 12 REST API built with clean architecture principles, implement
 
 ## 🎯 Overview
 
-Jerme is a well-architected Laravel API that demonstrates professional backend development practices. The project follows clean architecture principles with a clear separation of concerns, making it highly maintainable and testable.
+This project demonstrates professional backend development practices with a clear separation of concerns.
+The architecture ensures maintainability, testability, and scalability, following best practices like the Repository and Service layers, SOLID principles, and proper dependency management.
 
 ### Key Highlights
 - ✅ **Clean Architecture** with Repository & Service patterns
@@ -41,21 +42,15 @@ This project implements a **3-layer architecture**:
 │  Repositories   │ ← Data Access Layer
 └─────────────────┘
 ```
+This separation makes the system easier to extend, maintain, and test.
 
 ### SOLID Principles Applied
 
-1. **Single Responsibility Principle (SRP)**
-   - Controllers handle HTTP requests only
-   - Services contain business logic
-   - Repositories manage data access
+Single Responsibility – Each class has one job
 
-2. **Open/Closed Principle (OCP)**
-   - Extensible through interfaces
-   - New features can be added without modifying existing code
+Open/Closed – Extend functionality via interfaces without changing core code
 
-3. **Dependency Inversion Principle (DIP)**
-   - High-level modules depend on abstractions
-   - Dependencies injected through interfaces
+Dependency Inversion – High-level code depends on abstractions, not concrete classes
 
 ## ✨ Features
 
