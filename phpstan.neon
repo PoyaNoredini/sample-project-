@@ -1,0 +1,23 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - config/
+        - database/
+        - routes/
+        - tests/
+
+    # Level of rule strictness (0-10, where 10 is strictest)
+    level: 4
+
+    # Exclude certain paths or patterns
+    excludePaths:
+        - bootstrap/cache/*
+        - storage/*
+        - vendor/*
+        - node_modules/*
+
+    # Ignore specific errors that might be false positives
+    ignoreErrors: []
