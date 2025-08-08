@@ -1,4 +1,4 @@
-# 🚀 Jerme - Laravel API with Clean Architecture
+# 🚀 Laravel API with Clean Architecture
 
 A robust Laravel 12 REST API built with clean architecture principles, implementing the Repository pattern and SOLID principles for scalable and maintainable code.
 
@@ -88,44 +88,7 @@ This project implements a **3-layer architecture**:
 - **Testing:** PHPUnit
 - **Development:** Laravel Sail, Vite
 
-## 📦 Installation
 
-### Prerequisites
-- PHP ^8.2
-- Composer
-- Node.js & NPM
-
-### Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/jerme.git
-   cd jerme
-   ```
-
-2. **Install dependencies**
-   ```bash
-   composer install
-   npm install
-   ```
-
-3. **Environment setup**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   php artisan jwt:secret
-   ```
-
-4. **Database setup**
-   ```bash
-   php artisan migrate
-   php artisan db:seed
-   ```
-
-5. **Start development server**
-   ```bash
-   composer run dev
-   ```
 
 ## 📚 API Documentation
 
